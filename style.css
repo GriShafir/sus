@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('fon.jpg');
+    background-size: cover;
+    background-size: 100%;
+}
+img {
+    margin-top: 10%;
+    border: 4px ridge #727f80;
+    border-radius: 25px;
+}
+button {
+    margin: 20px;
+    border: 5px;
+    width: 125px;
+    height: 30px;
+    border: 2px ridge #2ad07f;
+    border-radius: 25px;
+    background-color: #abd0be;
+    font-size: 16px;
+    font-weight: bolder;
+}
+button:hover {
+    border: 2px solid red;
+    cursor: pointer;
+}
+button:active {
+    background-color: #bf4646;
+    color: black;
+}
